@@ -214,3 +214,15 @@ body {
   color: red;
   cursor: pointer;
 }
+/* Make card text and titles white for dark backgrounds */
+.art-card .card-title,
+.art-card .card-text,
+.favorite-card .card-title,
+.favorite-card .card-text {
+  color: #fff !important;
+}
+
+.art-card .card-text.text-muted,
+.favorite-card .card-text.text-muted {
+  color: #b0c4de !important; /* Soft blue-gray for muted text */
+}
