@@ -3,3 +3,7 @@ body {
     color: #fff;
     font-family: "poppins", sans-serif;
 }
+
+.navbar{
+    box-shadow:0 2px 15px rgba(0, 123, 255, 0.2);
+}
