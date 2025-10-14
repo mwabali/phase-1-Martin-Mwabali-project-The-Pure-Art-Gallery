@@ -32,5 +32,15 @@ function displayArtworks(artworks) {
          </div>
             `;
 
+            const likeBtn = card.querySelector(".like-btn");
+            likeBtn.addEventListener("click",() => {
+                likeBtn.classList.toggle("liked");
+                likeBtn.textContent = likeBtn.classList.contains("liked") ? "❤️ Liked" : "❤️ Like";
+            });
 
-}
+            gallery.appendChild(card);
+        });
+    }
+
+
+
