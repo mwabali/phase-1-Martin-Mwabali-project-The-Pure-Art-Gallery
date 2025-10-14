@@ -29,3 +29,13 @@ body {
     color:red;
     border-color: red;
 }
+
+
+#commentsList li {
+    border-bottom: 1px solid #222;
+    padding: 8px 0;
+}
+#commentsList li:hover{
+    color:red;
+    cursor:pointer;
+}
