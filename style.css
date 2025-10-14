@@ -14,3 +14,9 @@ body {
     border-radius:15px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
+
+.art-card:hover{
+    transform: translateY(-5px);
+    box-shadow:0 4px 25px rgba(0, 123, 255, 0.5);
+}
+
