@@ -70,6 +70,11 @@ function displayArtworks(artworks) {
     });
 
 
-    
+    (async function init () {
+        await fetchArtists();
+        const artworks = await fetchArtworks();
+        displayArtworks(artworks);  
+
+    })();
 
 
