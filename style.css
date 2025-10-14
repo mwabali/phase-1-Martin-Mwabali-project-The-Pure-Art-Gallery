@@ -20,3 +20,12 @@ body {
     box-shadow:0 4px 25px rgba(0, 123, 255, 0.5);
 }
 
+.btn-outline-primary{
+    border-radius:50%;
+    border-width:2px;
+}
+
+.liked{
+    color:red;
+    border-color: red;
+}
