@@ -78,14 +78,10 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         setLikedArtworks(liked);
       });
-
-      // View More button (expand later)
-      const viewBtn = card.querySelector(".view-btn");
-      viewBtn.addEventListener("click", () => {
-        alert(`View details for: ${art.title}`);
-        // You can redirect to art.html with query params here
-      });
-
+const viewBtn = card.querySelector(".view-btn");
+viewBtn.addEventListener("click", () => {
+  window.location.href = `art.html?id=${art.id}`;
+});
       gallery.appendChild(card);
     });
   }

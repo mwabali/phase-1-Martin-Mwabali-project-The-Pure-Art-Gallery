@@ -48,11 +48,9 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
       `;
 
-      // Clicking the card can go to details page (expand later)
-      card.querySelector('.favorite-card').addEventListener('click', () => {
-        // Example: window.location.href = `art.html?id=${art.id}`;
-        alert(`View details for: ${art.title}`);
-      });
+     card.querySelector('.favorite-card').addEventListener('click', () => {
+  window.location.href = `art.html?id=${art.id}`;
+});
 
       gallery.appendChild(card);
     });
