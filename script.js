@@ -4,11 +4,11 @@ const gallery = document.getElementById("artGallery");
 const artistSelect = document.getElementById("artistSelect");
 
 async function fetchArtworks() {
-    const response = await fetch("https://api.artic.edu/api/v1/artworks?limit=20");
+    // Fetch 51 artworks for the home page
+    const response = await fetch("https://api.artic.edu/api/v1/artworks?limit=51");
     const data = await response.json();
     return data.data;
 }
-
 function displayArtworks(artworks) {
     gallery.innerHTML = "";
     artworks.forEach(art => {
