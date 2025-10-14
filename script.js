@@ -43,4 +43,18 @@ function displayArtworks(artworks) {
     }
 
 
+    async function fetchArtists() {
+        const response = await fetch("https://api.artic.edu/api/v1/artists?limit=50");
+        const data = await response.json();
+        return data.data;
+
+        artistSelect.forEach(artist => {
+            const option =document.createElement("option");
+            option.value = artist.title;
+            option.textContent = artist.title;
+            artistSelect.appendChild(option);
+        });
+    
+    }
+
 
