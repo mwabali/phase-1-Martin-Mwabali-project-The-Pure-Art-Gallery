@@ -58,3 +58,18 @@ function displayArtworks(artworks) {
     }
 
 
+    artistSelect.addEventListener("change", async () => {
+        const selected = artistSelect.value;
+        let artworks = await fetchArtworks();
+
+        if (selected) {
+            artworks = artworks.filter(a => a.artist_title === selected);
+        
+        }
+        displayArtworks(artworks);
+    });
+
+
+    
+
+
