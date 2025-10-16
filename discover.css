@@ -74,7 +74,6 @@ body {
     cursor:pointer;
 }
 
-/* ...existing code... */
 
 body {
   background: #050505 !important;
@@ -125,7 +124,7 @@ body {
   box-shadow: 0 2px 15px rgba(0, 123, 255, 0.2);
 }
 
-/* Art Card Styling */
+/
 .art-card {
   background-color: #111;
   border: 2px solid;
@@ -141,7 +140,7 @@ body {
   border-image: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%) 1;
 }
 
-/* Like Button (Instagram style) */
+
 .btn-like {
   background: transparent;
   border: none;
@@ -174,7 +173,7 @@ body {
   100% { transform: scale(1);}
 }
 
-/* View More Button Styling */
+
 .view-btn {
   border-radius: 50%;
   background: #0a2540;
@@ -195,7 +194,6 @@ body {
   box-shadow: 0 0 16px 2px #0072ff55;
 }
 
-/* Utility */
 .btn-outline-primary {
   border-radius: 50%;
   border-width: 2px;
@@ -214,7 +212,6 @@ body {
   color: red;
   cursor: pointer;
 }
-/* Make card text and titles white for dark backgrounds */
 .art-card .card-title,
 .art-card .card-text,
 .favorite-card .card-title,
@@ -224,5 +221,5 @@ body {
 
 .art-card .card-text.text-muted,
 .favorite-card .card-text.text-muted {
-  color: #b0c4de !important; /* Soft blue-gray for muted text */
+  color: #b0c4de !important;
 }

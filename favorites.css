@@ -1,4 +1,4 @@
-/* Favorite Card Styling */
+
 .favorite-card {
   border: 2px solid;
   border-image: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%) 1;
@@ -32,7 +32,7 @@
   background-clip: text;
 }
 
-/* Make card text and titles white for dark backgrounds */
+
 .art-card .card-title,
 .art-card .card-text,
 .favorite-card .card-title,
@@ -42,5 +42,5 @@
 
 .art-card .card-text.text-muted,
 .favorite-card .card-text.text-muted {
-  color: #b0c4de !important; /* Soft blue-gray for muted text */
+  color: #b0c4de !important; 
 }
